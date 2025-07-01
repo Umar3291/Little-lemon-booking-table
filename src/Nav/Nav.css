@@ -1,0 +1,29 @@
+.nav-list {
+  display: flex;
+  flex-direction: row;  
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  
+}
+
+.nav-list a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #575757;
+}
+
+.nav-list a:active {
+      color: #8a8a8a;
+}
+.nav-list img {
+  height: 40px;
+}
