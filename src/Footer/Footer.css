@@ -1,11 +1,12 @@
+
 #main-list {
     margin: 0;
     background-color: rgb(73, 94, 87);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 70px;
     list-style: none;
     height: 250px;
 }
@@ -24,6 +25,13 @@
 
 .header {
     padding-bottom:20px;
+    font-size: 1.3rem
+}
+
+.items a{
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
 }
 
 a:hover{
@@ -34,4 +42,23 @@ a:hover{
 
 a:active {
       color: #ffffff;
+}
+
+
+@media (max-width: 774px) {
+    .second-list 
+    {
+        display: none;
+    }
+    #main-list {
+        background-color: rgb(73, 94, 87);
+        background-image: url('../icons_assets/logo2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+    }
+    body {
+        background-color: rgb(73, 94, 87);
+    }
 }

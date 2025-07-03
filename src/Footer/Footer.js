@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../icons_assets/logo2.png';
 import './Footer.css';
 function Footer(){
@@ -7,24 +8,24 @@ function Footer(){
                 <li className = 'second-list'><img src={logo} alt='little lemon logo'/></li>
                 <li className = 'second-list'>
                     <li className='header'>Doormat Navigation</li>
-                    <li className='items'><a>Home</a></li>
-                    <li className='items'><a>About</a></li>
-                    <li className='items'><a>Menu</a></li>
-                    <li className='items'><a>Reservations</a></li>
-                    <li className='items'><a>Order online</a></li>
-                    <li className='items'><a>Login</a></li>
+                    <li className='items'><Link to="/">Home</Link></li>
+                    <li className='items'><Link to="/about">About</Link></li>
+                    <li className='items'><Link to="/menu">Menu</Link></li>
+                    <li className='items'><Link to="/reservations">Reservations</Link></li>
+                    <li className='items'><Link to="/order-online">Order online</Link></li>
+                    <li className='items'><Link to="/login">Login</Link></li>
                 </li>
                 <li className = 'second-list'>
                     <li className='header'>Contact</li>
-                    <li className='items'><a>Address</a></li>
-                    <li className='items'><a>Phone Number</a></li>
-                    <li className='items'><a>Email</a></li>
+                    <li className='items'><a href='#'>Address</a></li>
+                    <li className='items'><a href='#'>Phone Number</a></li>
+                    <li className='items'><a href='#'>Email</a></li>
                 </li>
                 <li className = 'second-list'>
                     <li className='header'>Social media links</li>
-                    <li className='items'><a>Facebook</a></li>
-                    <li className='items'><a>Instagram</a></li>
-                    <li className='items'><a>X</a></li>
+                    <li className='items'><a href='#'>Facebook</a></li>
+                    <li className='items'><a href='#'>Instagram</a></li>
+                    <li className='items'><a href='#'>X</a></li>
                 </li>
             </ul>
         </>
