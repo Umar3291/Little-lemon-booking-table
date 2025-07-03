@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Little-lemon-booking-table/static/css/main.1c55dc7d.css",
-    "main.js": "/Little-lemon-booking-table/static/js/main.80f1d0cc.js",
+    "main.js": "/Little-lemon-booking-table/static/js/main.c250400f.js",
     "static/js/453.96453769.chunk.js": "/Little-lemon-booking-table/static/js/453.96453769.chunk.js",
     "static/media/bruchetta.svg": "/Little-lemon-booking-table/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
     "static/media/greek salad.jpg": "/Little-lemon-booking-table/static/media/greek salad.bed423a1fab5b210e347.jpg",
@@ -10,11 +10,11 @@
     "index.html": "/Little-lemon-booking-table/index.html",
     "static/media/icon _hamburger menu_.svg": "/Little-lemon-booking-table/static/media/icon _hamburger menu_.0da6f67ced800ab909f63d5144de37ee.svg",
     "main.1c55dc7d.css.map": "/Little-lemon-booking-table/static/css/main.1c55dc7d.css.map",
-    "main.80f1d0cc.js.map": "/Little-lemon-booking-table/static/js/main.80f1d0cc.js.map",
+    "main.c250400f.js.map": "/Little-lemon-booking-table/static/js/main.c250400f.js.map",
     "453.96453769.chunk.js.map": "/Little-lemon-booking-table/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c55dc7d.css",
-    "static/js/main.80f1d0cc.js"
+    "static/js/main.c250400f.js"
   ]
 }
